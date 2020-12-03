@@ -1,0 +1,22 @@
+{
+  "name": "test-mghosh",
+  "version": "1.0.0",
+  "description": "A test app for heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghosh13/test_mghosh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mghosh13/test_mghosh/issues"
+  },
+  "homepage": "https://github.com/mghosh13/test_mghosh#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.3"
+  }
+}
