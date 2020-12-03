@@ -1,10 +1,11 @@
 const Hapi = require('@hapi/hapi');
 const config = require('./config.json')
+const port = process.env.PORT || config.port;
 
 const init = async () => {
   
   const server = Hapi.server({
-    port: config.port,
+    port: port,
     host: config.host
   });
 
