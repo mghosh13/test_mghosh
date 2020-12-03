@@ -12,8 +12,12 @@ const init = async () => {
     path: '/',
     method: 'GET',
     handler: (req, h) => {
-      return h.request('Hello from HapiJS')
+      return h.response('Hello from HapiJS!')
     }
   });
 
+  await server.start();
+  console.log(`Server started at ${server.info.uri}`);
+
 }
+init();
